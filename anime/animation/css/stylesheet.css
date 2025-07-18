@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@keyframes anim{
+    0%{
+        background-color: palevioletred;
+        transform: translate(0px,0px);
+        border-radius: 0px;
+    }
+    20%{
+        background-color: pink;
+        transform: translate(200px,200px);
+        border-radius: 20px;
+    }
+    40%{
+        background-color: plum;
+        transform: translate(300px,0px);
+        border-radius: 20px;
+    }
+    60%{
+        background-color: purple;
+        transform: translate(400px,200px);
+        border-radius: 20px;
+    }
+    80%{
+        background-color: brown;
+        transform:translate(500px,0px);
+        border-radius: 20px;
+    }
+    100%{
+        background-color:black;
+        transform:translate(600px,200px);
+        border-radius:50px;
+    }
+        
+    }
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    animation-name: anim;
+    animation-duration: 5s;
+    animation-iteration-count: 6;
+    animation-direction: reverse;
+
+    
+}

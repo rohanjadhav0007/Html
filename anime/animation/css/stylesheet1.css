@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*
+body {
+    background-color: #111;
+    display: block;
+    height: 100vh;
+
+    font-family: sans-serif;
+}
+
+h1 {
+    width: 500px;
+    margin: 100px auto;
+
+}
+
+.dancing-text span {
+    display: inline-block;
+    font-size: 60px;
+    animation-name: dance;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.dancing-text span:nth-child(1) {
+    animation-delay: 0s;
+    color: cyan;
+}
+
+.dancing-text span:nth-child(2) {
+    animation-delay: 0.1s;
+    opacity: 50%;
+    color: lightblue;
+}
+
+.dancing-text span:nth-child(3) {
+    animation-delay: 0.2s;
+    color: skyblue;
+}
+
+.dancing-text span:nth-child(4) {
+    animation-delay: 0.3s;
+    opacity: 50%;
+    color: lightskyblue;
+}
+
+.dancing-text span:nth-child(5) {
+    animation-delay: 0.4s;
+    color: lightslategray;
+}
+
+@keyframes dance {
+
+    0%,
+    100% {
+        transform: translateY(o);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+    */
+    .dancing-text span {
+    display: inline-block;
+    animation: moveFade 2s ease-in-out infinite alternate;
+}
+
+@keyframes moveFade {
+    0% {
+        transform: translateX(10px);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(200px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(-10px);
+        opacity: 1;
+    }
+
+}

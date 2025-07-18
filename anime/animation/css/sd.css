@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+     width: 1510px;
+    height: 750px; 
+    position: relative;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+img{
+    width: 500px;
+    position: absolute;
+    /* top: 50%; */
+    transition: translateY(-50%);
+    animation: bhag 5s linear infinite;
+    top: 400px;
+}
+
+@keyframes bhag {
+    0% {
+        left: -200px;
+    }
+
+    100% {
+        left: 100%;
+        /* transition: all 2s; */
+    }
+
+
+}

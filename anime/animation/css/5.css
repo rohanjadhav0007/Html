@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 400px;
+    height: 200px;
+    animation: anim 3s ease-in-out infinite;
+}
+.d1{
+    background-color: skyblue;
+    animation-direction: alternate-reverse;
+}
+.d2{
+    background-color: darkblue;
+    animation-direction: alternate;
+}
+@keyframes anim{
+    0%{
+        width: 300px;
+    }
+    100%{
+        width: 500px;
+    }
+}
