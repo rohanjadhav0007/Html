@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a[href="abc"] {
+            font-size: 30px;
+            color: cadetblue;
+        }
+        #a[href="abc"]{
+            background-color: aquamarine;
+        }
+        div{
+            border: 1px solid black;
+            
+        }
+        /* Descedent combinatory selector */
+        div span{
+            color: red;
+        }
+        /* dirct child */
+        div>span{
+            background-color: bisque;
+            padding: 10px;
+        }
+        /* Adjacent Sibling Selector: It selects all the elements that are adjacent siblings of specified elements. It selects the second element if it immediately follows the first element.  */
+        h2+div{
+            background-color: cadetblue;
+        }
+        /* General Sibling Selector: It selects only the first element if it follows the first element and both children are of the same parent element. It is not necessary that the second element immediately follows the first element. */
+        h2~div{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <a href="abc" id="a">Link1</a><br>
+    <a href="pqr" id="a">Link2</a><br>
+    <a href="abc">Link3</a><br>
+    <h1>Descedent combinatory selector(child of any stage)</h1>
+    <div>
+        <h3>parent1</h3>
+        <div>
+            <p>padffef</p>
+            <h2>parent2</h2>
+            <div>
+                <h3>parent3 <span>Red</span></h3>
+            </div>
+        </div>
+    </div>
+   <div>
+        <span>Red</span>
+        <h4>parent in another div <span>Red</span></h4>
+    </div>
+</body>
+</html>
