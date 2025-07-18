@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, #FFD0C7 , #3D3D3D);
+}
+header{
+    background: gray;
+    color: white;
+    padding: 10px 20px;
+}
+header h1{
+    display: inline-block;
+    margin: 0;
+    font-size: 25px;
+}
+nav{
+    float: right;
+    margin-top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+nav a:hover{
+    text-decoration: underline;
+    background: #FFE99A;
+    color: black;
+    padding: 5px;
+}
+.about h2{
+    margin-top: 30px;
+}
+.about img {
+      width: 350px;
+      margin-right: 20px;
+      border-radius: 8px;
+      display: block;
+    }
+.about p {
+      overflow: hidden;
+    }
+#projects{
+    margin-top: 30px;
+}
+.project-card {
+      display: inline-block;
+      width: 45%;
+      background: white;
+      margin: 2%;
+      padding: 15px;
+      vertical-align: top;
+      border-radius: 5px;
+    }
+
+    .project-card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .project-card h3 {
+      margin-top: 10px;
+    }
+    .contact input,
+    .contact textarea {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 20px;
+      border: 1px solid #B6B09F;
+      border-radius: 5px;
+    }
+
+    .contact button {
+      background: #333;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact button:hover {
+      background: #DA6C6C;
+      color: black;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+
+    footer a {
+      color: #ccc;
+      margin: 0 10px;
+      text-decoration: none;
+      bottom: 30px;
+    }
+
+    footer a:hover {
+      color: #4E71FF    ;
+    }
+    h2{
+        color: #3E3F5B;
+    }
+
+     @media (max-width: 750px) {
+      nav {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .project-card {
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+      }
+
+      .about img {
+        float: none;
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+      }
+
+      .about p {
+        text-align: center;
+      }
+    }
+
+     @media (max-width: 500px) {
+      nav {
+        float: none;
+        text-align: center;
+        margin-top: 5px;
+      }
+
+      .project-card {
+        width: 50%;
+        margin: 5px auto;
+        display: block;
+      }
+
+      .about img {
+        float: none;
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+      }
+
+      .about p {
+        text-align: center;
+      }
+    }
+
