@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(img1.jpg);
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+            background-color: yellow;
+        
+        }
+        table{
+            color: brown;
+            text-align: center;
+            margin: 0 auto;
+            border: 4px solid red;
+            
+        }
+        th{
+            background-color: aqua;
+            border: 4px solid black;
+        }
+        td{
+            background-color: blueviolet;
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student information</h1>
+    <table>
+        <tr>
+            <th><label for="name">Name:-</label></th>
+            <td><input type="text" id="name" placeholder="Enter your name" autofocus minlength="5"></td>
+            
+        </tr>
+        <tr>
+            <th><label for="Age">Age:-</label></th>
+            <td><input type="number" id="age" placeholder="Age" min="18" max="60"></td>
+        </tr>
+        <tr>
+            <th><label for="content">Content:-</label></th>
+            <td><input type="number" id="content" placeholder="Enter your Content"></td>
+        </tr>
+        <tr>
+            <th><label for="email">Email:-</label></th>
+            <td> <input type="email" required></td>
+        </tr>
+        <tr>
+            <th> <label for="">Gender:-</label></th>
+            <td> <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female</td>
+        </tr>
+        <tr>
+            <th><label for="file">Upload Resume:-</label></th>
+            <td> <input type="file" accept="apllication/pdf"></td>
+        </tr>
+        <tr>
+            <th colspan="2"><input type="reset" value="reset"> <button>Submit</button></th>
+        </tr>
+    </table>
+</body>
+</html>

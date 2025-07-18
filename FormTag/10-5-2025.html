@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-color: gray;
+        }
+        form{
+            color: black;
+            margin: 20px;
+        }
+        span{
+            color: blue;
+            font-style: italic;
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="">Organisation :-</label>
+        <input type="text" value="UP Skill Computer Institute" readonly><br><br>
+        <label for="name">Name :-</label>
+        <input type="text" id="name" placeholder="Enter Your Name" required autofocus><span>*Note:- Enter Your Name</span><br><br>
+        <label for="addr">Age:-</label>
+        <input type="number" id="addr" placeholder="Enter Your Age"><br><br>
+        <label for="email">Email :-</label>
+        <input type="email" id="email" placeholder="Enter Your Email"><br><br>
+        <label for="password">Password :-</label>
+        <input type="password" id="password" placeholder="password" required><br><br>
+        <label for="bday">Birth date & Time :-</label>
+        <input type="datetime-local" id="bday" required><br><br>
+        <label for="file">Upload Image :-</label>
+        <input type="file" id="file" required><br><br>
+        <label for="">Select Year :-</label>
+        <input type="checkbox" value="FY">First Year <input type="checkbox" value="SY">Second Year <input type="checkbox" value="TY">Third Year <br><br>
+        <label for="">Gender :-</label>
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female <br><br>
+        <label for="">Choose Color :-</label>
+        <input type="color"><br><br>
+        <input type="range"><br><br>
+        <input type="search">
+        <input type="reset" value="reset"><br><br>
+        <textarea name="" id=""></textarea><br><br>
+        <select name="" id="">
+            <option value="">none of thise</option>
+            <option value="Pune">Pune</option>
+            <option value="nashik">Nashik</option>
+            <option value="Dhule">Dhule</option>
+            <option value="Sangli">Sangli</option>
+        </select>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
