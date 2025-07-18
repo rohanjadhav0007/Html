@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    border: 1px solid rebeccapurple;
+    background-color: bisque;
+    width: 600px;
+    text-align: justify;
+    margin: 100px auto;
+    /* cursor: all-scroll; */
+    /* cursor: help; */
+    /* cursor: copy; */
+    /* cursor: crosshair; */
+    /* cursor: cell; */
+    /* cursor: grab; */
+    /* cursor: progress; */
+    cursor: not-allowed;
+}
