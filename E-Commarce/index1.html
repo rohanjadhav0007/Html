@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Women's Sarees</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    overflow: auto;
+    margin: 20px 0;
+}
+
+.header h2 {
+    float: left;
+    font-size: 20px;
+}
+
+.header span {
+    color: #888;
+    font-weight: normal;
+}
+
+.sort {
+    float: right;
+    margin-top: 5px;
+}
+
+.sort label {
+    font-size: 14px;
+}
+
+.products {
+    text-align: center;
+}
+.product1,.product2,.product3,.product4 {
+    display: inline-block;
+    width: 40%;
+    margin: 1%;
+    vertical-align: top;
+    text-align: left;
+}
+
+.product1 img,.product2 img,.product3 img,.product4 img {
+    width: 100%;
+    height: auto;
+}
+.product3{
+    margin-top: 200px;
+}
+
+.colors {
+    color: #555;
+    font-size: 13px;
+    margin: 5px 0 0;
+}
+
+.name {
+    font-weight: bold;
+    margin: 5px 0 0;
+}
+
+.desc {
+    color: #777;
+    margin: 2px 0;
+}
+
+.price {
+    font-weight: bold;
+    margin: 5px 0;
+}
+button{
+    padding: 10px;
+    background-color: rgb(248, 139, 7);
+    color: black;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h2>WOMEN'S Sarees <span>(317)</span></h2>
+        <div class="sort">
+            <label for="sort">SORT BY:</label>
+            <select id="sort">
+                <option>Newest</option>
+                <option>Highest Rated</option>
+                <option>Price: 100000</option>
+                <option>Price: 1000</option>
+
+            </select>
+        </div>
+    </div>
+
+    <div class="products">
+        <div class="product1">
+            <img src="./sarees/img1.jpg" alt="Nike Top">
+            <p class="colors">2 Colors</p>
+            <p class="name">Nike Sportswear Rally</p>
+            <p class="desc">Women's Crew</p>
+            <p class="price">6000</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="product2">
+            <img src="./sarees/img2.jpg" alt="Nike Dry">
+            <p class="colors">3 Colors</p>
+            <p class="name">Nike Dry</p>
+            <p class="desc">Women's Long Sleeve Training Sarees</p>
+            <p class="price">5500</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="product3">
+            <img src="./sarees/img3.jpg" alt="Nike Medalist">
+            <p class="colors">2 Colors</p>
+            <p class="name">Nike Medalist</p>
+            <p class="desc">Women's Long Sarees</p>
+            <p class="price">7000</p>
+            <button>Buy Now</button>
+        </div>
+         <div class="product4">
+            <img src="./sarees/img4.jpg" alt="Nike Medalist">
+            <p class="colors">2 Colors</p>
+            <p class="name">Medalist</p>
+            <p class="desc">Women's Sarees</p>
+            <p class="price">10000</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

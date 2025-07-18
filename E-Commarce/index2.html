@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sports Shoes</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+}
+
+.header {
+  background: white;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.header input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.menu-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #ff6b6b;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.top-bar {
+  padding: 10px 15px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.top-bar h2 {
+  float: left;
+  margin: 0;
+}
+
+.sort-select {
+  float: right;
+  padding: 5px;
+}
+
+.product-container {
+  text-align: center;
+  padding: 15px;
+}
+
+.product-card {
+  display: inline-block;
+  width: 140px;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  vertical-align: top;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.product-card .heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: red;
+}
+
+.product-card h3 {
+  margin: 5px 0;
+}
+
+.product-card .stars {
+  color: gold;
+  font-size: 14px;
+}
+
+.add-btn {
+  background-color: #ff6b6b;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.Buy{
+    padding: 8px;
+    background-color: rgb(250, 102, 3);
+    color: white;
+}
+.Buy:hover{
+    background-color: red;
+    color: black;
+}
+  </style>
+</head>
+  <div class="header">
+    <input type="text" placeholder="Search shoes">
+    <button class="menu-btn">☰</button>
+  </div>
+
+  <div class="top-bar">
+    <h2>Sports Shoes</h2>
+    <select class="sort-select">
+      <option>Sort By</option>
+    </select>
+  </div>
+
+  <div class="product-container">
+    <div class="product-card">
+      <img src="./shoes/img1.webp" alt="Shoe 1">
+      <span class="heart">❤</span>
+      <p>Shoes</p>
+      <h3>3000.00</h3>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <button class="add-btn">+</button>
+      <button class="Buy">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="./shoes/img2.webp" alt="Shoe 2">
+      <span class="heart">♡</span>
+      <p>Shoes</p>
+      <h3>4000.00</h3>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <button class="add-btn">+</button>
+      <button class="Buy">Buy Now</button>
+    </div>
+     <div class="product-card">
+      <img src="./shoes/img3.jpg" alt="Shoe 2">
+      <span class="heart">♡</span>
+      <p>Shoes</p>
+      <h3>2000.00</h3>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <button class="add-btn">+</button>
+      <button class="Buy">Buy Now</button>
+    </div>
+     <div class="product-card">
+      <img src="./shoes/img4.jpeg" alt="Shoe 2">
+      <span class="heart">♡</span>
+      <p>Shoes</p>
+      <h3>4000.00</h3>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <button class="add-btn">+</button>
+      <button class="Buy">Buy Now</button>
+    </div>
+     <div class="product-card">
+      <img src="./shoes/img6.jpg" alt="Shoe 2">
+      <span class="heart">♡</span>
+      <p>Shoes</p>
+      <h3>10000.00</h3>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <button class="add-btn">+</button>
+      <button class="Buy">Buy Now</button>
+    </div>
+     <div class="product-card">
+      <img src="./shoes/img2.webp" alt="Shoe 2">
+      <span class="heart">♡</span>
+      <p>Shoes</p>
+      <h3>1000.00</h3>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <button class="add-btn">+</button>
+      <button class="Buy">Buy Now</button>
+    </div>
+  </div>
+</body>
+</html>
