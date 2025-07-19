@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    color: blueviolet;
+}
+main{
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(223, 39, 202), rgb(213, 155, 20));
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    text-align: center;
+    row-gap: 50px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+footer{
+    text-align: center;
+
+}
+@media screen and (max-width: 768) {
+    main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+@media screen and (max-width: 460) {
+    
+}
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px gray;
+}
