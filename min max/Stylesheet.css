@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 100px auto;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+}
+div{
+    background-image: linear-gradient(to right , rgb(239, 172, 26), rgb(194, 45, 169), rgb(20, 146, 98));
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    border: 1px solid black;
+    /* resize: both;
+    overflow: auto; */
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 300px;
+}
+div:hover{
+    transform: scale(1.10);
+}
+.d1{
+    margin-bottom: 20px;
+}
+.d2{
+    margin-top: 40px;
+}
+ table{
+    margin: 200px auto;
+   background-color: gray;
+   padding: 10px;
+   border-collapse: collapse;
+   color: black;
+   font-size: 20px;
+   text-align: center;
+   border: 3px solid black;
+ }
+td{
+   border: 3px solid black;
+    padding: 20px;
+ }
