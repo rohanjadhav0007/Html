@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+.para{
+   font-size: 50px;
+   font-family: "Tagesschrift", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: 2cap;
+}
+.para1{
+    font-size: 40px;
+    color: red;
+    background-color: black;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-variant: small-caps;
+
+}
+.para2{
+    font-size: 40px;
+    color: aliceblue;
+    background-color: rgb(61, 141, 167);
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.para3{
+    font-size: 40px;
+    color: rebeccapurple;
+    background-color: salmon;
+    font-family: "Playwrite RO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.para4{
+    font-size: 40px;
+    color: green;
+    background-color: black;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.para5{
+    line-height: 60px;
+    /* word-break: break-all; */
+    word-wrap: break-word;
+    li
+}
