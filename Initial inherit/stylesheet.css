@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color:red;
+    padding:20px;
+    color: yellow;
+    font-size: 25px;
+}
+.p1{
+    color: beige;
+}
+.p2{
+    padding: 20px;
+    border: 1px solid black;
+    font-size: inherit;
+}
+.d1{
+    width: 50%;
+}
+.d2{
+    background-color: aqua;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+p{
+    background-color: blue;
+    width: inherit;
+    border: inherit;
+    border-radius: inherit;
+    all: unset;
+    border: 1px solid blue;
+}
+.a1{
+    color: aqua;
+    text-decoration: none;
+}
+.a2{
+    color: yellow;
+}
+.a3{
+    color: initial;
+    font-size: initial;
+    text-decoration: initial;
+}
+.sample{
+    background-color: green;
+    width: calc(50%  + 200px);
+
+}
