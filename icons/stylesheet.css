@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.d1{
+    height: 120px;
+    text-align: center;
+    background-color: gray;
+    font-size: 100px;
+    color: rebeccapurple;
+}
+.d2{
+    height: 100%;
+    width: 100%;
+    background-color: violet;
+    font-size: 700px;
+    text-align: center;
+
+}
