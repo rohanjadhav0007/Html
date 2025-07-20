@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nave{
+    background-color: white;
+    position: fixed;
+    height: 50px;
+    width: 1600px;
+}
+.opstion,.opstion11{
+    color: gray; 
+    word-spacing: 10px;
+    overflow: auto;
+    margin-left: 50px;
+    width: 100%; 
+    margin-top: 40px;
+}
+.opstion11{
+        margin-left: 650px;
+}
+.opstion1{
+        float: left;
+        margin-left: 40px;
+        margin-top: 20px;
+}
+.img{
+    background-image: url(./images/about/welcome-banner.jpg);
+    height: 800px;
+    width: 1920px;
+}
+.bgimg{
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 900;
+}
+.para{
+    overflow: auto;
+    font-size: 30px;
+    font-size: 20px;
+}
+.button{
+    background-color: rebeccapurple;
+    padding: 20px;
+    color: white;
+}
+h2{
+    text-align: center;
+}
