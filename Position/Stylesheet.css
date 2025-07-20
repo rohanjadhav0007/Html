@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+     background-color: #B6B09F;
+} */
+header{
+    position: sticky;
+    top: 10px;
+    box-shadow: 10px 0px 40px black;
+}
+nav{
+    
+}
+ul{
+    background-color: bisque;
+    text-decoration: none;
+    height: 55px;
+ 
+}
+li{
+    font-size: 40px;
+    color: black;
+    display: inline;
+    margin-left: 100px;
+    padding: 10px 10px;
+}
+li:hover{
+    color: white;
+    background-color: rebeccapurple;
+}
+main{
+    margin-top: 100px;
+    text-align: center;
+    margin: -650px auto;
+}
+div{
+    padding: 30px;
+    width: 25%;
+    display: inline-block;
+    
+}
+.d1{
+    background-color: #FFA55D;
+
+}
+.d2{
+    background-color: #FFDF88;
+}
+.d3{
+    background-color: #ACC572;
+}
+h2{
+    color: #A76545;
+    font-size: 40px
+}
+p{
+    font-size: 20px;
+  font-family: "Exile", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+section{
+    height: 120px;
+    font-size: 20px;
+    float: right;
+    background-color: #D3CA79;
+    position: fixed;
+    bottom: 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px;
+    
+}
+button:hover{
+    color: white;
+    background-color: red;
+}
+article{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Wallpapers-pexels-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    position: sticky;
+    top: 0%;
+    opacity: 50%;
+
+}
