@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Wrapper{
+    border: 2px solid black;
+    margin: 30px 30px;
+    width: 500px;
+    padding: 20px;
+}
+.d1,.d2,.d3{
+    margin: 10px auto;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.d1{
+    background-color: #FCE7C8;
+}
+.d2{
+    background-color: #FADA7A;
+}
+.d3{
+    background-color: #F0A04B;
+}
+.d2{
+    position: relative;
+    top: 10px;
+    right: 50px;
+}
