@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    background-color: indianred;
+    /* margin-bottom: 50px; */
+    height: 280px;
+}
+
+.menu {
+    list-style-type: none;
+    overflow: auto;
+    box-shadow: 10px 0px 5px black;
+}
+
+.item {
+    color: white;
+    float: left;
+    padding: 10px 20px;
+}
+
+.item:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    background-color: white;
+    color: black;
+}
+
+.logo:hover {
+    background-color: grey;
+}
+
+.content {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subhead {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.start {
+    width: 100px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.start:hover {
+    background-color: grey;
+}
+
+.text {
+    width: 400px;
+    float: left;
+    margin-top: 50px;
+}
+
+.text2 {
+    width: 400px;
+    float: right;
+    margin-top: 50px;
+}
+
+.img1 {
+    float: right;
+    width: 200px;
+    margin-top: 50px;
+
+}
+
+.main1 {
+    margin: 0 auto;
+    width: 700px;
+    clear: both;
+}
+
+.img2 {
+    float: left;
+    width: 200px;
+    margin-top: 50px;
+
+}
+
+.main2 {
+    margin: 0 auto;
+    width: 700px;
+    background-color: grey;
+    clear: both;
+    overflow: auto;
+}
+
+.quote {
+    background-color: slategray;
+    color: white;
+    padding: 30px;
+    clear: both;
+
+}
+
+
+
+.quote h3 {
+    text-align: center;
+}
