@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        table{
+            
+            color: brown;
+            text-align: center;
+            margin: 0;
+            
+        }
+        th{
+            background-color: aqua;
+            border: 2px solid blue;
+        }
+        td{
+            background-color: blueviolet;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td rowspan="2">A</td>
+                <td>B</td>
+                <td rowspan="3">D</td>
+                <td colspan="2">E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td rowspan="2">G</td>
+                <td rowspan="2">H</td>
+                <td rowspan="2">I</td>
+            </tr>
+            <tr>
+                <td colspan="2">J</td>
+            </tr>
+            <tr>
+                <td colspan="3">k</td>
+                <td>L</td>
+                <td colspan="2">H</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <Style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        table{
+            border: 4px solid black;
+            margin: 0 auto;
+            margin-top: 100px;
+            border-collapse: collapse;
+            text-align: center;
+            font-style: italic;
+        }
+        th{
+            border: 4px solid black;
+            padding: 10px;
+            text-decoration: underline;
+            text-decoration-color: brown;
+            background-color: gray;
+            color: white;
+        }
+        td{
+            border: 4px solid black;
+            padding: 10px;
+            /* background-color: aqua; */
+            color: brown;
+        }
+        tr:nth-child(even) {
+            background-color: blueviolet;
+        }
+        tr:nth-child(odd) {
+            background-color: aqua;
+        }
+    </Style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="4">School Report</th>
+        </tr>
+        <tr>
+            <th>Number</th>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Class</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Rohan</td>
+            <td>Html</td>
+            <td>4th year</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rohan</td>
+            <td>Computer</td>
+            <td>4th year</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Rohan</td>
+            <td>java</td>
+            <td>4th year</td>
+        </tr>
+        <tr>
+            <td colspan="2">Something</td>
+            <td colspan="2">Demo</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Rohan</td>
+            <td>Html</td>
+            <td rowspan="3">4th year</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rohan</td>
+            <td>Computer</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Rohan</td>
+            <td>java</td>
+        </tr>
+    </table>
+</body>
+</html>
