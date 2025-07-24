@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin: 100px auto;
+    border: 1px solid black;
+    height: 70vh;
+    width: 50vw;
+    background-color: aqua;
+    font-size: 20px;
+}
+.em{
+    font-size: 2em;
+}
+.rem{
+    font-size: 2rem;
+}
