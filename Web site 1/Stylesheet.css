@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+      background-image: linear-gradient(45deg,#9d4edd,#7b2cbf,#5a189a,#ff6d00,#ff7900,#ff8500);
+
+}
+main{
+    background-color: #d3d3d3;
+    margin: 90px auto;
+    border: 1px solid black;
+    width: 60%;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+}
+li{
+    list-style-type: none;
+    margin: 50px;
+}
+nav{
+    margin: 10px;
+    font-size: 30px;  
+}
+li:nth-child(2){
+    margin-top: 100px;
+}
+.div{
+    height: 100px;
+    width: 5px;
+    background-image: linear-gradient(180deg,rgb(20, 206, 197),#9d4edd,#ff7900);
+    margin-top: 150px;
+    margin-left: 100px;
+    
+}
+.text{
+    margin-top: 150px;
+    padding: 20px;
+    z-index: 2;
+}
+.Word1{
+    padding-left: 20px;
+    font-size: 70px;
+}
+.word2{
+    padding-top: 1px;
+    padding-left: 90px;
+    font-size: 70px;
+}
+.float{
+    width: 500px;
+    height: 500px;
+    animation: float 3s ease-in-out infinite;  
+    margin-top: -75px;
+    z-index: -1px;
+    margin-left: -190px;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+         transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
