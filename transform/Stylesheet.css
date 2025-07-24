@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin: 100px 100px;
+    background-color: bisque;
+    color: red;
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50px;
+    display: block;
+}
+a{
+    margin: 100px 100px;
+    background-color: bisque;
+    color: red;
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50px;
+    display: block;
+}
+a:hover{
+    /* transform: translate(100px); */
+    /* transform: rotate(45deg); */
+}
